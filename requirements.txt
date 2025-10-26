@@ -1,0 +1,19 @@
+# Google API dependencies
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
+google-cloud-pubsub>=2.18.0
+
+# Date parsing
+python-dateutil>=2.8.2
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# AI/ML dependencies (optional - for smart event detection)
+# Comment out these lines if you want regex-only mode
+transformers>=4.35.0
+torch>=2.0.0
+
+# Note: If you have a CUDA-enabled GPU, install torch with CUDA support:
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
